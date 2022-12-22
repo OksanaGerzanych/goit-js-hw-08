@@ -21,6 +21,7 @@ function createGalleryItemsMarkup(galleryItems) {
     />
    </a></div>`
     }).join('');
+
  
 }
 gallery.insertAdjacentHTML("beforeend", markup);
