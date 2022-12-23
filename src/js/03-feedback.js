@@ -23,13 +23,13 @@ function onFormSubmit(event) {
     localStorage.removeItem(STORAGE_KEY);
     event.currentTarget.reset();
 }
-function dataFromLocalStorage() {
+function dataFormSave() {
   const data = JSON.parse(localStorage.getItem(STORAGE_KEY));
   if (data) {
     email.value = data.email;
     message.value = data.message;
   }
 };
-dataFromLocalStorage();
+dataFormSave();
 
 
