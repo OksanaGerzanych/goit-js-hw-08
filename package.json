@@ -15,7 +15,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/OksanaGerzanych/goit-js-hw-08/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
