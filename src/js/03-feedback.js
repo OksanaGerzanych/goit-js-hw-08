@@ -8,7 +8,7 @@ function onFormSubmit(event) {
   
   event.preventDefault();
 
-  console.log(getFormState(event.currentTarget));
+  console.log(getFormValue(event.currentTarget));
 
   localStorage.removeItem(STORAGE_KEY);
   event.currentTarget.reset();
